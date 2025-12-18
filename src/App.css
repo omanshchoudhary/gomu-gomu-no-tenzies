@@ -3,4 +3,14 @@
     height: 600px;
     width: 600px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice-grid {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px 70px;
+    column-gap: 40px;
+    row-gap: 30px;
 }
