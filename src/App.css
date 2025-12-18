@@ -4,7 +4,8 @@
     width: 600px;
     border-radius: 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -13,4 +14,15 @@
     grid-template-columns: 70px 70px 70px 70px 70px;
     column-gap: 40px;
     row-gap: 30px;
+}
+
+.roll-button{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5035FF ;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
